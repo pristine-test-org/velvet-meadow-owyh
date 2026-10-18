@@ -1,8 +1,5 @@
 # Velvet Meadow: Landing page · Cloudflare
 
-> **This is a template, not a repository.** Copy it out and prepare it before an eval (steps below).
-> Nothing here is deployed.
-
 A one-page landing site on **Cloudflare**, with preview links **public**. Static Vite +
 TypeScript, no framework. The page reads a live list from the shared Supabase test project.
 Row in the support matrix: impeccable-reviews#302.
@@ -13,7 +10,7 @@ Filled in at prep time.
 
 | Production | Preview gate |
 |---|---|
-| _not deployed_ | no |
+| https://velvet-meadow-owyh.pages.dev | no |
 
 ## Names
 
