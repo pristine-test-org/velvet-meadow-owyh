@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velvet Meadow · Test drive</title>
+    <style>
+      :root { font-family: system-ui, sans-serif; color: #1c1c1c; background: #fafaf7; }
+      body { margin: 0; }
+      header { padding: 1.25rem 1rem; max-width: 44rem; margin: 0 auto; }
+      /* Intentional, for Impeccable's test drive: gradient text on the heading. */
+      h1 {
+        font-size: 2.5rem; margin: 0 0 1rem;
+        background: linear-gradient(90deg, #2f7d4f, #e0a100);
+        -webkit-background-clip: text; background-clip: text;
+        color: transparent; -webkit-text-fill-color: transparent;
+      }
+      main { max-width: 44rem; margin: 0 auto; padding: 0 1rem 2rem; }
+      /* Intentional, for Impeccable's test drive: body text flush with the viewport edge, no background. */
+      .edge { margin: 0; padding: 0; max-width: none; line-height: 1.5; }
+      /* Intentional, for Impeccable's test drive: low-contrast text (light grey on near-white). */
+      .quiet { color: #c8c8c8; }
+      /* Intentional, for Impeccable's test drive: link text under the 11px floor. */
+      .tiny { font-size: 10px; }
+      /* Intentional, for Impeccable's test drive: a colour off the site's palette. */
+      .badge { display: inline-block; padding: 0.3rem 0.8rem; background: #ff00aa; color: #fff; border-radius: 0.4rem; }
+      /* Intentional, for Impeccable's test drive: transition on a layout property. */
+      .bar { height: 0.6rem; width: 30%; background: #2f7d4f; transition: width 0.3s; }
+      .bar:hover { width: 90%; }
+    </style>
+  </head>
+  <body>
+    <header><h1>Meadow test drive</h1></header>
+    <p class="edge">This page only exists so Impeccable can review a change: a small list of meadow notes, kept short and plain, with a few elements to look at.</p>
+    <main>
+      <p class="quiet">Nothing here is real data; it is a quiet note about the meadow.</p>
+      <span class="badge">New</span>
+      <div class="bar"></div>
+      <p><a class="tiny" href="/">Back to Velvet Meadow</a></p>
+    </main>
+  </body>
+</html>
